@@ -67,22 +67,14 @@ p {
     font-size: 20px;
 }
 
-/* image1, 2, 3 etc. are placeholder names */
+/* image1, 2, 3 etc. are placeholder names
 #image1 {
     object-fit: contain;
     max-width: 500px;
     max-height: 500px
-}
+} */
 
-#video_doug {
-    object-fit: contain;
-    max-width: 500px;
-    max-height: 500px
-}
-
-table {
-    width: 100%;
+td {
     border-spacing: 5px;
-    border: thistle;
-    border-width: 4px;
+    border: 2px solid thistle
   }
