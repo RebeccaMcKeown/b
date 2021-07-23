@@ -1,0 +1,88 @@
+* {
+    background-color: black;
+    color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    /* background-color: teal; */
+    min-height: 50px;
+    justify-content: center;
+}
+
+.button {
+    background-color: thistle;
+    padding: 13px 20px;
+    margin: 20px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    min-width: 200px
+}
+
+.container {
+    display: flex;
+    /* background-color: blue; */
+    width: 100%;
+    padding: 5px;
+    flex-direction: row;
+}
+
+/* added to containers to make them put their embed on the right and text on the left */
+.right {
+    flex-direction: row-reverse;
+}
+
+.box1 {
+    background-color: teal;
+    max-width: max-content;
+    flex-direction: row-reverse;
+}
+
+.box2 {
+    background-color: black
+    /* min-width: min-content */
+}
+
+.box3 {
+    background-color: black;
+    flex-direction: column;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.large {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+/* image1, 2, 3 etc. are placeholder names */
+#image1 {
+    object-fit: contain;
+    max-width: 500px;
+    max-height: 500px
+}
+
+#video_doug {
+    object-fit: contain;
+    max-width: 500px;
+    max-height: 500px
+}
+
+table {
+    width: 100%;
+    border-spacing: 5px;
+    border: thistle;
+    border-width: 4px;
+  }
